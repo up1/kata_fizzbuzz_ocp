@@ -6,6 +6,7 @@ public class FizzBuzzFactory {
 
 	public static FizzBuzz create() {
 		return new FizzBuzz(Arrays.asList(
+				new FizzBuzzBangRule(),
 				new BuzzBangRule(),
 				new FizzBangRule(),
 				new BangRule(),
