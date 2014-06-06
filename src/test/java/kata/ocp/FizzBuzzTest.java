@@ -10,7 +10,7 @@ public class FizzBuzzTest {
 	public void shouldReturnSameNumber() {
 		FizzBuzz fizzBuzz = FizzBuzzFactory.create();
 		assertEquals("1", fizzBuzz.say(1));
-		assertEquals("2", fizzBuzz.say(1));
+		assertEquals("2", fizzBuzz.say(2));
 	}
 
 }
