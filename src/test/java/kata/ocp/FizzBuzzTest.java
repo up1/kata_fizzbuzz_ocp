@@ -33,5 +33,12 @@ public class FizzBuzzTest {
 		assertEquals("FizzBuzz", fizzBuzz.say(15));
 		assertEquals("FizzBuzz", fizzBuzz.say(30));
 	}
+	
+	@Test
+	public void shouldReturnBangForMultiplyOfSeven() {
+		FizzBuzz fizzBuzz = FizzBuzzFactory.create();
+		assertEquals("Bang", fizzBuzz.say(7));
+		assertEquals("Bang", fizzBuzz.say(14));
+	}
 
 }
