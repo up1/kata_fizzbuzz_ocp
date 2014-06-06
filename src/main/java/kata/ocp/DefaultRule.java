@@ -1,13 +1,13 @@
 package kata.ocp;
 
-public class FizzRule implements Rule {
+public class DefaultRule implements Rule {
 
 	public boolean isHandle(Integer number) {
-		return number % 3 == 0;
+		return true;
 	}
 
 	public String say(Integer number) {
-		return "Fizz";
+		return number.toString();
 	}
 
 }

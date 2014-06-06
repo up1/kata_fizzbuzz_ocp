@@ -13,10 +13,10 @@ public class FizzBuzz {
 	public String say(Integer number) {
 		for (Rule rule : rules) {
 			if (rule.isHandle(number)) {
-				return rule.say();
+				return rule.say(number);
 			}
 		}
-		return number.toString();
+		return "";
 	}
 
 }

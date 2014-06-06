@@ -4,6 +4,6 @@ public interface Rule {
 
 	boolean isHandle(Integer number);
 
-	String say();
+	String say(Integer number);
 
 }
