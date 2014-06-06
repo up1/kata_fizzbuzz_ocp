@@ -26,5 +26,12 @@ public class FizzBuzzTest {
 		assertEquals("Buzz", fizzBuzz.say(5));
 		assertEquals("Buzz", fizzBuzz.say(10));
 	}
+	
+	@Test
+	public void shouldReturnFizzBuzzForMultiplyOfThreeAndFive() {
+		FizzBuzz fizzBuzz = FizzBuzzFactory.create();
+		assertEquals("FizzBuzz", fizzBuzz.say(15));
+		assertEquals("FizzBuzz", fizzBuzz.say(30));
+	}
 
 }
