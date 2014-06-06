@@ -1,6 +1,6 @@
 package kata.ocp;
 
-public class FizzRule {
+public class FizzRule implements Rule {
 
 	public boolean isHandle(Integer number) {
 		return number % 3 == 0;
